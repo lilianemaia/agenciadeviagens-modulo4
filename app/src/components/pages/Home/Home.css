@@ -1,0 +1,17 @@
+.home-container {
+  display: flex;
+  color: #fff;
+  text-shadow: rgb(63 62 62) 2px 3px 2px;
+  font-weight: bold;
+  background-size: 1920px 1280px;
+  background-repeat: no-repeat;
+  padding: 50px 0 251px 0;
+  margin-left: 150px;
+  align-items: center;
+}
+.home-titulo {
+  display: auto;
+  font-size: 4rem;
+  font-weight: bold;
+  margin: auto;
+}

@@ -1,0 +1,35 @@
+.header {
+  width: 100%;
+  background-size: cover;
+}
+.logo {
+  height: 10vh;
+  margin-left: 100px;
+  padding-right: 850px;
+}
+.men {
+  justify-content: flex-end;
+  align-items: center;
+  background: rgb(255, 255, 255);
+  top: 0px;
+}
+.men a {
+  text-decoration: none;
+  color: #21429c;
+  font-weight: bold;
+  padding: 3px 8px;
+  margin: 5px;
+}
+.men a:hover {
+  color: #ffae00;
+}
+.navbar.custom {
+  width: 50%;
+  margin: 0 auto;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}

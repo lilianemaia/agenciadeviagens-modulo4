@@ -1,0 +1,101 @@
+.promocoes {
+  background-color: rgba(235, 231, 231, 0.363);
+  padding: 50px;
+}
+
+.promocoes .promocoes-cards {
+  margin: auto;
+  max-width: 950px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.promocoes .promocoes-title {
+  width: 100%;
+  margin: auto;
+  padding: 40px;
+  text-align: center;
+  font-size: 50px;
+  color: #21429c;
+  font-family: Helvetica;
+}
+
+.promocoes .card {
+  margin: 25px;
+  width: 250px;
+  height: 400px;
+  background: #fff;
+  border-radius: 24px 0px;
+  box-shadow: 0px 0px 4px -1px #222;
+  position: relative;
+  transition: all 1s;
+}
+
+.promocoes .card:hover {
+  transform: scale(1.1);
+}
+
+.promocoes .card-image {
+  width: 250px;
+  height: 200px;
+  border-radius: 24px 0 0 0;
+  object-fit: cover;
+}
+
+.promocoes .card-content {
+  padding: 0 15px;
+}
+
+.promocoes .card-content h1 {
+  font-size: 0.9rem;
+}
+
+.promocoes .card-content ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding-left: 0;
+}
+
+.promocoes .card-content ul li {
+  font-size: 0.7rem;
+  display: flex;
+  align-items: center;
+  margin: 3px 0px;
+  color: gray;
+  font-weight: bold;
+}
+
+.promocoes .card-content li svg {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+.promocoes .card .card-tag-top {
+  position: absolute;
+  background: #ffb800;
+  right: 0;
+  top: 15px;
+  border-radius: 8px 0 0 8px;
+  padding: 5px 10px;
+  box-shadow: 1px 2px 5px -2px #222;
+}
+
+.promocoes .card .card-tag-bottom {
+  position: absolute;
+  left: 0;
+  top: 160px;
+  background: #1d61dd;
+  border-radius: 0 8px 8px 0;
+  padding: 5px 10px;
+  box-shadow: 1px 1px 4px 1px #222;
+}
+
+.promocoes .card .card-tag p {
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #ffff;
+}
